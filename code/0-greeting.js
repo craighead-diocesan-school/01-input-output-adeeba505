@@ -5,9 +5,11 @@
 function greeting() {
   let username = prompt("What's your name?")
 
-  alert('Hello ' + username)
+  alert("Hello " + username)
 }
 
 function joke() {
-  // write the code for your joke here.
+  let answer= prompt("Why was the tomato blushing?")
+
+  alert("Because it saw the salad dressing")
 }
