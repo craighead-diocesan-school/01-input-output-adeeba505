@@ -3,19 +3,28 @@
 // ####################################
 
 function nonMaoriMihi() {
-  alert('Non-Māori Mihi')
-  alert('This program will help you build a basic mihi.')
+  alert("Non-Māori Mihi")
+  alert("This program will help you build a basic mihi.")
   alert("First, you'll be asked a series of questions, then your mihi will be ready.")
 
-  alert('What is your name?')
-  let name = prompt()
-  // more questions and answers here
+  let name = prompt("What is your name?")
 
-  alert('Your mihi:')
-  // more outputs here
+  let mountain = prompt("What is your mountain?")
 
-  alert('Ko ' + name + ' tōku ingoa,')
-  alert('Tēnā koutou,')
-  alert('Tēnā koutou,')
-  alert('Tēnā koutou, katoa.')
+  let river = prompt("What is your river?")
+
+  let hometown = prompt("What is your home town?")
+
+  alert("Your mihi:")
+
+  alert("Tēnā koutou,")
+  alert("Kei te mihi au ki a " + mountain)
+  alert("Kei te mihi au ki a " + river)
+  alert("Ko Te Tiriti O Waitangi te waka,")
+  alert("Ko Aoetearoa te iwi,")
+  alert("Nō " + hometown + " au,")
+  alert("Ko " + name + " tōku ingoa,")
+  alert("Tēnā koutou,")
+  alert("Tēnā koutou,")
+  alert("Tēnā koutou, katoa.")
 }
